@@ -1,0 +1,41 @@
+
+table.albumtable {
+	border: 2px solid #FFFFFF;
+	background-color: #EEEEEE;
+	width: 50%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+table.albumtable td,
+table.albumtable th {
+	border: 1px solid #FFFFFF;
+	padding: 3px 4px;
+	
+}
+
+table.albumtable tbody td {
+	font-size: 13px;
+	color: #000000;
+}
+
+table.albumtable tr:nth-child(even) {
+	background: #F5F5F5;
+}
+
+table.albumtable thead {
+	background: #FFFFFF;
+	border-bottom: 4px solid #333333;
+}
+
+table.albumtable thead th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+	border-left: 2px solid #333333;
+}
+
+table.albumtable thead th:first-child {
+	border-left: none;
+}
