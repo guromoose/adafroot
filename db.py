@@ -3,10 +3,9 @@ Lager et bord som heter potlog i databasen tmp_db
 """
 
 from sqlalchemy import *
-from sqlalchemy import create_engine, ForeignKey
-from sqlalchemy import Column, Date, Integer, String, Float, DateTime
+from sqlalchemy import create_engine
+from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, backref
 
 engine = create_engine("mysql://root:toor@localhost/tmp_db", echo=True)
 Base = declarative_base()
